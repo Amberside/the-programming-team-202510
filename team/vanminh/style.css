@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin: auto;
+ width: 100%;
+}
+.container-main{
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid seagreen;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+.back-home-button-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+.information-header-container{
+    width: 50%;
+display: table-column;
+}
+.container{
+    width: 100%;
+}
+.about-me{
+    width: 100%;
+}
+a {
+    margin: 10px;
+    padding: 10px;
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid seagreen;
+    transition: ease-in-out 0.3s;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: seagreen;
+    border: 1px solid seagreen;
+  }
+  h1{
+    color: seagreen;
+  }
+  h1:hover{
+    color: blue;
+  }
+  h2{
+    color: seagreen;
+  }
+  .icon-github{
+    color: black;
+    font-size: 30px;
+  }
+  .icon-linked{
+    color: rgb(24, 119, 242);
+    font-size: 30px;
+  }
