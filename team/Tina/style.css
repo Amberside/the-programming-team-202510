@@ -1,0 +1,12 @@
+header{
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?t=st=1740967271~exp=1740970871~hmac=82845e0d5e52137b37ecaa317061f82e1253cbb51ec7fc69d2b9e314c81c5f82&w=1060);
+  height:600px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px 10px;
+}
+
