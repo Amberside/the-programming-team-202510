@@ -23,3 +23,12 @@ button {
     color: aqua;
     background-color: black;
 }
+
+div#ImageHold.image {
+    max-width: max-content;
+    max-height: max-content;
+    margin-block: auto;
+    margin-left: auto;
+
+
+}
