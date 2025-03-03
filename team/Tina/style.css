@@ -3,10 +3,32 @@ header{
   height:600px;
   background-repeat: no-repeat;
   background-position: center top;
+  padding:none;
+  text-align: right;
+  font-size: 30px;
+  display:block;
 }
 
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 20px 10px;
+  background-color:#F2E4D8;
+  opacity:1;
+}
+
+section{
+  display: inline-block;
+  background-color:#F2A7A7;
+  border:#F28888;
+  border-radius:10%; 
+  border-style:dotted;                                                                         
+  padding: 60px 40px;
+  margin: 20px 0;
+  width: 41%;
+  opacity:0.8;
+}
+
+.ambitions{
+  text-align: center;
+
 }
 
