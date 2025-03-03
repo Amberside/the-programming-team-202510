@@ -1,0 +1,36 @@
+body {
+    /* display: flex; */
+    font-family: system-ui;
+    background-color: rgb(55, 92, 240);
+    height: 900px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+button {
+    color: aqua;
+    background-color: black;
+}
+
+div#ImageHold.image {
+    max-width: max-content;
+    max-height: max-content;
+    margin-block: auto;
+    margin-left: auto;
+
+
+}
