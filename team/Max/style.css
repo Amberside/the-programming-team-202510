@@ -3,11 +3,14 @@ body {
     font-family: system-ui;
     background-color: rgb(55, 92, 240);
     height: 900px;
+    align-self: center;
+    background-image: linear-gradient(blue, red);
 }
 
 .container {
-    max-width: 1000px;
-    margin: auto;
+    max-width: 100px;
+    /* margin: auto; */
+    align-items: center;
     color: rgb(0, 0, 0);
 }
 
@@ -27,10 +30,6 @@ button {
 }
 
 div#ImageHold.image {
-    max-width: max-content;
-    max-height: max-content;
-    margin-block: auto;
-    margin-left: auto;
-
-
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
