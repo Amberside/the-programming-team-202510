@@ -18,8 +18,13 @@ body {
   column-gap: 5px;
 }
 
+h3 {
+  padding-left: 200px;
+  font-size: 20px;
+}
+
 img {
-  padding-left: 400px;
+  padding-left: 200px;
   height: 430px;
   width: 350px;
 }
@@ -42,4 +47,8 @@ a {
   background-color: blueviolet;
   color: white;
   text-decoration: none;
+}
+
+.bottom {
+  padding-top: 40px;
 }
