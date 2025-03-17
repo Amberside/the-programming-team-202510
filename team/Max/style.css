@@ -1,0 +1,35 @@
+body {
+    /* display: flex; */
+    font-family: system-ui;
+    background-color: rgb(55, 92, 240);
+    height: 900px;
+    align-self: center;
+    background-image: linear-gradient(blue, red);
+}
+
+.container {
+    max-width: 100px;
+    /* margin: auto; */
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+button {
+    color: aqua;
+    background-color: black;
+}
+
+div#ImageHold.image {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
