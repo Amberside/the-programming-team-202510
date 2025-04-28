@@ -1,0 +1,96 @@
+/* Document wide CSS */
+body {
+    margin: 0;
+    background-color: #d8ccdc;
+    /* height: 100vh; */
+}
+
+h1, h2, p {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+    color: #000000;
+}
+
+.text-center {
+    display: block;
+    text-align: center;
+}
+
+/* HEADER SECTION */
+/* navbar */
+#navbar {
+    background: #3c0050;
+    color: #FFFFFF;
+    overflow: auto;
+    height: 9vh;
+  }    
+  #navbar a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  #navbar h3 {
+    float: left;
+    padding: 24px;
+    margin: 0;
+  }
+  #navbar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar ul li {
+    float: left;      
+  }
+  #navbar ul li a {
+    display: block;
+    padding: 26px;
+  }
+
+main {
+    /* height: 81.22vh; */
+    height: 30vh;
+}
+
+#features {
+    height: 51.22vh;
+}
+
+.card {
+  display: inline-block;
+  width: 20%;
+  background-color: #ffd700;
+  padding: 60px 40px;
+  margin: 20px;
+}
+
+.card h3 {
+  color: #3c0050;
+}
+
+footer {
+    background-color: #3c0050;
+    height: 5vh;
+}
+
+#signoff {
+    color: #ffd700;
+    text-align: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(131, 223, 169);
+}
+
+.main {
+  font-size: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 5em;
+  color: black;
+}

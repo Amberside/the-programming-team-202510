@@ -42,15 +42,29 @@ var imageList = [
   "ao.png",
 ];
 
-let students = [
+let students =
+[
+
+	{
+		"path": "amberle",
+		"lastName": "Seidl",
+		"firstName": "Amberle"
+	},
   {
-    path: "amberle",
-    lastName: "Seidl",
-    firstName: "Amberle",
     path: "Amina",
     lastName: "Aar",
     FirstName: "Amina",
   },
+  {
+		"path": "vanminh",
+		"lastName": "Le",
+		"firstName": "Van Minh"
+	},
+  {
+		"path": "carlos",
+		"lastName": "Ramos",
+		"firstName": "Carlos"
+	},
 ];
 
 const maxColor = 15;
