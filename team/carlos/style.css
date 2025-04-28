@@ -1,0 +1,133 @@
+body {
+  font-family: 'Trebuchet MS', 'Verdana', sans-serif;
+  background-color: #FFF8E1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee; 
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-icon {
+  height: 30px; 
+  width: auto;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: black;
+  background-color: #a682e8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 3em;
+  color: #410d8a;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pic-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  color: black;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@keyframes verticalSpin {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+h1 {
+  text-align: center; 
+  display: block;
+}
+
+.name {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.company {
+  display: block;
+  font-size: 1.8rem;
+  animation: verticalSpin 5s linear infinite;
+}
+
+li {
+  color: black;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #5A1BB2;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+#footer {
+  padding: 20px;
+  font-size: 14px;
+}
