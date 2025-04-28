@@ -39,18 +39,18 @@ var imageList = [
   "al.png",
   "am.png",
   "an.png",
-  "ao.png"
+  "ao.png",
 ];
 
-let students =
-[
-
-	{
-		"path": "amberle",
-		"lastName": "Seidl",
-		"firstName": "Amberle"
-	},
-	
+let students = [
+  {
+    path: "amberle",
+    lastName: "Seidl",
+    firstName: "Amberle",
+    path: "Amina",
+    lastName: "Aar",
+    FirstName: "Amina",
+  },
 ];
 
 const maxColor = 15;
@@ -58,9 +58,11 @@ const maxClip = 10;
 const maxImage = imageList.length + 1;
 students.forEach((student, index) => {
   student.fullName = `${student.firstName} ${student.lastName}`;
-  student.initial = student.fullName.split(' ').reduce((acc, subname) => acc + subname[0], '');
-  student.color = `color-${(index % maxColor + 1).toString()}`;
-  student.clip = `clip-${(index % maxClip + 1).toString()}`;
+  student.initial = student.fullName
+    .split(" ")
+    .reduce((acc, subname) => acc + subname[0], "");
+  student.color = `color-${((index % maxColor) + 1).toString()}`;
+  student.clip = `clip-${((index % maxClip) + 1).toString()}`;
   student.image = `${imageList[index % maxImage]}`;
 });
 var studentList = new StudentList("all-students", students);
