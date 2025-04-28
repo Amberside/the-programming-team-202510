@@ -50,9 +50,9 @@ let students =
 		"firstName": "Amberle"
   },
   {
-   	"path": "Amina",
+   	"path": "amina",
    	"lastName": "Aar",
-   	"FirstName": "Amina",
+   	"firstName": "Amina",
   },
   {
 		"path": "vanminh",
