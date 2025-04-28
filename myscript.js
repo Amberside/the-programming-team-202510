@@ -49,22 +49,22 @@ let students =
 		"path": "amberle",
 		"lastName": "Seidl",
 		"firstName": "Amberle"
-	},
-  {
-    path: "Amina",
-    lastName: "Aar",
-    FirstName: "Amina",
-  },
-  {
+  	},
+  	{
+    	path: "Amina",
+    	lastName: "Aar",
+    	FirstName: "Amina",
+   	},
+   	{
 		"path": "vanminh",
 		"lastName": "Le",
 		"firstName": "Van Minh"
 	},
-  {
+    {
 		"path": "carlos",
 		"lastName": "Ramos",
 		"firstName": "Carlos"
-	},
+    },
 ];
 
 const maxColor = 15;
