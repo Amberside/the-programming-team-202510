@@ -1,0 +1,126 @@
+/* Document wide CSS */
+body {
+    margin: 0;
+    background-color: #d8ccdc;
+    height: 100vh;
+    
+}
+
+h1 {
+  color: #3c0050;
+  /* color: #2a14d0; */
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  color: #3c0050;
+  /* color: #2a14d0; */
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  color: #3c0050;
+  /* color: #2a14d0; */
+}
+
+.text-left {
+    display: block;
+    text-align: left;
+}
+
+.text-center {
+    display: block;
+    text-align: center;
+}
+
+/* HEADER SECTION */
+/* navbar */
+#navbar {
+    background: #3c0050;
+    color: #FFFFFF;
+    overflow: auto;
+    height: 9vh;
+  }    
+  #navbar a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  #navbar h3 {
+    float: left;
+    padding: 24px;
+    margin: 0;
+  }
+  #navbar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar ul li {
+    float: left;      
+  }
+  #navbar ul li a {
+    display: block;
+    padding: 26px;
+  }
+
+main {
+    /* height: 81.22vh; */
+    /* height: 20vh; */
+}
+
+#features-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 35vh;
+}
+
+#features-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 35vh;
+}
+
+.card {
+  /* display: inline-block; */
+  width: 20vw;
+  height: 25vh;
+  background-color: #ffd700;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.card h3 {
+  color: #3c0050;
+}
+
+.card-double {
+  display: inline-block;
+  width: 50%;
+  background-color: #ffd700;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.card-double h3 {
+  color: #3c0050;
+}
+
+footer {
+    background-color: #3c0050;
+    height: 7vh;
+}
+
+#signoff {
+    color: #ffd700;
+    text-align: center;
+    padding-top: 10px;
+}

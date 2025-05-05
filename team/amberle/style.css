@@ -11,14 +11,27 @@ body {
   color: blue;
 }
 
+.flex {
+  display: flex;
+}
+
 p {
   color: black;
   margin-bottom: 40px;
+  text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
+li {
+  color: black;
+}
 a {
-  margin: 10px;
-  padding: 10px;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
   background-color: blueviolet;
   color: white;
   text-decoration: none;
@@ -29,7 +42,7 @@ a:hover {
 }
 
 .spinner {
-  margin-top: 3rem;
+  margin: 3rem auto;
   width: 150px;
   height: 150px;
   border: 32px solid pink;
@@ -41,5 +54,13 @@ a:hover {
 @keyframes spin {
   0% { transform: rotate(0deg);}
   100% { transform: rotate(360deg);}
-  
+}
+
+.col {
+  width: 50%;
+}
+
+.bottom {
+  margin: 1rem auto;
+  text-align: center;
 }
