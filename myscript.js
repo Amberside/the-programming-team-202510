@@ -43,15 +43,20 @@ var imageList = [
 ];
 
 let students =
-[
+  [
 
-	{
-		"path": "amberle",
-		"lastName": "Seidl",
-		"firstName": "Amberle"
-	},
-	
-];
+    {
+      "path": "amberle",
+      "lastName": "Seidl",
+      "firstName": "Amberle"
+    },
+    {
+      "path": "Max",
+      "lastName": "Watson",
+      "firstName": "Max"
+    },
+
+  ];
 
 const maxColor = 15;
 const maxClip = 10;
