@@ -65,6 +65,11 @@ let students =
 		"firstName": "Carlos"
   },
   {
+      "path": "Max",
+      "lastName": "Watson",
+      "firstName": "Max"
+    },
+  {
     "path": "kaushik",
     "lastName": "Ram",
     "firstName": "Kaushik"
