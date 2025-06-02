@@ -88,6 +88,11 @@ let students =
     "path": "yasuhiro",
     "lastName": "Davies",
     "firstName": "Yasuhiro"
+  },
+  {
+    "path": "robertw",
+    "lastname": "Webb",
+    "firstname": "Robert"
   }
 ];
 
