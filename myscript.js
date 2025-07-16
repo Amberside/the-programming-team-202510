@@ -39,61 +39,65 @@ var imageList = [
   "al.png",
   "am.png",
   "an.png",
-  "ao.png"
+  "ao.png",
 ];
 
-let students =
-[
-	{
-		"path": "amberle",
-		"lastName": "Seidl",
-		"firstName": "Amberle"
+let students = [
+  {
+    path: "amberle",
+    lastName: "Seidl",
+    firstName: "Amberle",
   },
   {
-   	"path": "amina",
-   	"lastName": "Aar",
-   	"firstName": "Amina",
+    path: "amina",
+    lastName: "Aar",
+    firstName: "Amina",
   },
   {
-		"path": "vanminh",
-		"lastName": "Le",
-		"firstName": "Van Minh"
-	},
-  {
-		"path": "carlos",
-		"lastName": "Ramos",
-		"firstName": "Carlos"
+    path: "vanminh",
+    lastName: "Le",
+    firstName: "Van Minh",
   },
   {
-      "path": "Max",
-      "lastName": "Watson",
-      "firstName": "Max"
-    },
-  {
-    "path": "kaushik",
-    "lastName": "Ram",
-    "firstName": "Kaushik"
+    path: "carlos",
+    lastName: "Ramos",
+    firstName: "Carlos",
   },
   {
-    "path": "robhodgskiss",
-    "lastName": "Hodgskiss",
-    "firstName": "Rob"
+    path: "Max",
+    lastName: "Watson",
+    firstName: "Max",
   },
   {
-    "path": "yuanjiang",
-    "lastName": "Jiang",
-    "firstName": "Yuan"
+    path: "kaushik",
+    lastName: "Ram",
+    firstName: "Kaushik",
   },
   {
-    "path": "yasuhiro",
-    "lastName": "Davies",
-    "firstName": "Yasuhiro"
+    path: "robhodgskiss",
+    lastName: "Hodgskiss",
+    firstName: "Rob",
   },
   {
-    "path": "robertw",
-    "lastname": "Webb",
-    "firstname": "Robert"
-  }
+    path: "yuanjiang",
+    lastName: "Jiang",
+    firstName: "Yuan",
+  },
+  {
+    path: "yasuhiro",
+    lastName: "Davies",
+    firstName: "Yasuhiro",
+  },
+  {
+    path: "robertw",
+    lastname: "Webb",
+    firstname: "Robert",
+  },
+  {
+    path: "Nasri",
+    lastname: "Ahmed",
+    firstname: "Nasri",
+  },
 ];
 
 const maxColor = 15;
